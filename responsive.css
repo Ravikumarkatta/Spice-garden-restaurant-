@@ -1,0 +1,100 @@
+/* Responsive Styles */
+@media (max-width: 992px) {
+    /* About Section */
+    .about .container {
+        flex-direction: column;
+    }
+
+    .about-image {
+        margin-top: 40px;
+    }
+
+    /* Menu Section */
+    .menu-items {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    /* Location & Hours */
+    .location-hours .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    /* General */
+    section {
+        padding: 60px 0;
+    }
+
+    /* Navigation */
+    .nav-links {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background-color: var(--white);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        transition: var(--transition);
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+
+    /* Hero Section */
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    /* Features */
+    .features {
+        grid-template-columns: 1fr;
+    }
+
+    /* Testimonials */
+    .testimonial-slider {
+        padding: 0 20px;
+    }
+
+    /* Footer */
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Hero Section */
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    /* Menu Tabs */
+    .menu-tabs {
+        flex-wrap: wrap;
+    }
+
+    /* Contact Form */
+    .contact-form {
+        padding: 30px 20px;
+    }
+}
