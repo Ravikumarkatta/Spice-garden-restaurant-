@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice Garden - Authentic Italian Cuisine</title>
+    <meta name="description" content="Experience authentic Italian flavors at Spice Garden. Family recipes, organic ingredients, and warm ambiance in the heart of the city.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/logo.png" type="image/png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="Spice Garden Logo">
+                <span>Spice Garden</span>
+            </a>
+            
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
+            
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay">
+            <div class="container">
+                <h1>Savor the Taste of Tradition</h1>
+                <p>Authentic Italian cuisine crafted with love and the finest ingredients</p>
+                <a href="#menu" class="btn">View Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>Our Story</h2>
+                <p>Founded in 1995, Spice Garden brings the authentic flavors of Italy to your table. Our recipes have been passed down through generations, preserving the true essence of Italian culinary tradition.</p>
+                <p>Chef Giovanni and his team create each dish with passion, using only the freshest locally-sourced ingredients and imported Italian specialties.</p>
+                
+                <div class="features">
+                    <div class="feature">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Organic Ingredients</h3>
+                        <p>We partner with local farms to bring you the freshest seasonal produce.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-utensils"></i>
+                        <h3>Family Recipes</h3>
+                        <p>Authentic dishes passed down through generations of Italian families.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-home"></i>
+                        <h3>Warm Ambiance</h3>
+                        <p>Experience the cozy atmosphere of a traditional Italian trattoria.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-image">
+                <img src="images/about-chef.jpg" alt="Our chef preparing pasta">
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <p class="section-subtitle">Taste the authentic flavors of Italy</p>
+            
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-category="all">All</button>
+                <button class="tab-btn" data-category="starters">Starters</button>
+                <button class="tab-btn" data-category="mains">Main Courses</button>
+                <button class="tab-btn" data-category="desserts">Desserts</button>
+                <button class="tab-btn" data-category="drinks">Drinks</button>
+            </div>
+            
+            <div class="menu-items">
+                <!-- Item 1 -->
+                <div class="menu-item" data-category="starters">
+                    <img src="images/menu/bruschetta.jpg" alt="Bruschetta">
+                    <div class="item-info">
+                        <h3>Bruschetta Classica</h3>
+                        <p>Toasted bread topped with tomatoes, garlic, and fresh basil</p>
+                        <span class="price">$8.50</span>
+                    </div>
+                </div>
+                
+                <!-- Item 2 -->
+                <div class="menu-item" data-category="mains">
+                    <img src="images/menu/pasta.jpg" alt="Pasta">
+                    <div class="item-info">
+                        <h3>Pasta Carbonara</h3>
+                        <p>Traditional Roman pasta with eggs, cheese, pancetta, and black pepper</p>
+                        <span class="price">$16.90</span>
+                    </div>
+                </div>
+                
+                <!-- Item 3 -->
+                <div class="menu-item" data-category="mains">
+                    <img src="images/menu/pizza.jpg" alt="Pizza">
+                    <div class="item-info">
+                        <h3>Pizza Margherita</h3>
+                        <p>Classic Neapolitan pizza with tomato sauce, mozzarella, and basil</p>
+                        <span class="price">$14.50</span>
+                    </div>
+                </div>
+                
+                <!-- Item 4 -->
+                <div class="menu-item" data-category="mains">
+                    <img src="images/menu/risotto.jpg" alt="Risotto">
+                    <div class="item-info">
+                        <h3>Risotto al Funghi</h3>
+                        <p>Creamy Arborio rice with wild mushrooms and Parmesan</p>
+                        <span class="price">$18.50</span>
+                    </div>
+                </div>
+                
+                <!-- Item 5 -->
+                <div class="menu-item" data-category="desserts">
+                    <img src="images/menu/tiramisu.jpg" alt="Tiramisu">
+                    <div class="item-info">
+                        <h3>Tiramisu</h3>
+                        <p>Classic Italian dessert with layers of coffee-soaked ladyfingers</p>
+                        <span class="price">$9.00</span>
+                    </div>
+                </div>
+                
+                <!-- Item 6 -->
+                <div class="menu-item" data-category="drinks">
+                    <img src="images/menu/wine.jpg" alt="Wine">
+                    <div class="item-info">
+                        <h3>Chianti Classico</h3>
+                        <p>Premium Tuscan red wine, glass</p>
+                        <span class="price">$12.00</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <a href="#" class="btn btn-outline">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Guests Say</h2>
+            <p class="section-subtitle">Don't just take our word for it</p>
+            
+            <div class="testimonial-slider">
+                <!-- Testimonial 1 -->
+                <div class="testimonial active">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The best Italian food I've had outside of Italy! The pasta carbonara is to die for, and the ambiance makes you feel like you're in a little trattoria in Rome."</p>
+                    <div class="guest">
+                        <h4>Sarah Johnson</h4>
+                        <span>Regular Guest</span>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"We celebrated our anniversary at Spice Garden and it was perfect. The staff went above and beyond to make our evening special. The wine selection is excellent!"</p>
+                    <div class="guest">
+                        <h4>Michael &amp; Emily</h4>
+                        <span>First-time Visitors</span>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"As an Italian expat, I'm very picky about my food. Spice Garden gets it right - authentic flavors, perfect pasta al dente, and ingredients that taste fresh and genuine."</p>
+                    <div class="guest">
+                        <h4>Marco Bianchi</h4>
+                        <span>From Naples, Italy</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slider-controls">
+                <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <p class="section-subtitle">A taste of our restaurant</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/gallery/1.jpg" alt="Restaurant interior">
+                    <div class="overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/2.jpg" alt="Pasta dish">
+                    <div class="overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/3.jpg" alt="Chef preparing food">
+                    <div class="overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/4.jpg" alt="Wine selection">
+                    <div class="overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/5.jpg" alt="Dessert">
+                    <div class="overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery/6.jpg" alt="Outdoor seating">
+                    <div class="overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Hours Section -->
+    <section class="location-hours">
+        <div class="container">
+            <div class="location">
+                <h2>Location</h2>
+                <div class="map">
+                    <!-- Replace with actual Google Maps embed code -->
+                    <img src="https://maps.googleapis.com/maps/api/staticmap?center=40.7128,-74.0060&zoom=15&size=600x300&markers=color:red%7C40.7128,-74.0060&key=YOUR_API_KEY" alt="Map location">
+                </div>
+                <address>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Pasta Street, Little Italy, NY 10013</p>
+                    <p><i class="fas fa-phone"></i> (212) 555-1234</p>
+                    <p><i class="fas fa-envelope"></i> info@spicegarden.com</p>
+                </address>
+            </div>
+            
+            <div class="hours">
+                <h2>Opening Hours</h2>
+                <table>
+                    <tr>
+                        <td>Monday - Thursday</td>
+                        <td>11:00 AM - 10:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Friday - Saturday</td>
+                        <td>11:00 AM - 11:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>11:00 AM - 9:00 PM</td>
+                    </tr>
+                </table>
+                
+                <div class="reservation-note">
+                    <p>Reservations recommended for weekends and special occasions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p class="section-subtitle">We'd love to hear from you</p>
+            
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                
+                <div class="form-group">
+                    <input type="text" id="subject" name="subject" placeholder="Subject">
+                </div>
+                
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="#" class="logo">
+                        <img src="images/logo.png" alt="Spice Garden Logo">
+                        <span>Spice Garden</span>
+                    </a>
+                    <p>Bringing authentic Italian flavors to your table since 1995. Family recipes, quality ingredients, and warm hospitality.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Pasta Street, Little Italy, NY 10013</li>
+                        <li><i class="fas fa-phone"></i> (212) 555-1234</li>
+                        <li><i class="fas fa-envelope"></i> info@spicegarden.com</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-yelp"></i></a>
+                    </div>
+                    
+                    <div class="newsletter">
+                        <h3>Newsletter</h3>
+                        <form>
+                            <input type="email" placeholder="Your Email">
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Spice Garden. All Rights Reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/form-validation.js"></script>
+</body>
+</html>
